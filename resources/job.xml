@@ -46,14 +46,14 @@
 		</listeners>
 
 	</job>
-	<bean:bean id="sampleListener" class="ww.ww.TestListener">
+	<bean:bean id="sampleListener" class="batch.TestListener">
 
 	</bean:bean>
 
-	<bean:bean id="myTasklet" class="ww.ww.TestTasklet">
+	<bean:bean id="myTasklet" class="batch.TestTasklet">
 
 	</bean:bean>
-	<bean:bean id="nextB1" class="ww.ww.TestTasklet1">
+	<bean:bean id="nextB1" class="batch.TestTasklet1">
 
 	</bean:bean>
 </bean:beans>
