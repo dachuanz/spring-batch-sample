@@ -31,7 +31,7 @@
 	<bean:import resource="classpath:job-context.xml" />
 <!-- job 定义 -->
 	<job id="billJob">
-
+          <!--定义步骤-->
 		<step id="billStep" next="nextB">
 
 			<tasklet  ref="myTasklet">
