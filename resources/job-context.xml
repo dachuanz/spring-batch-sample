@@ -25,6 +25,7 @@
 	http://www.springframework.org/schema/context/spring-context-4.3.xsd"
 
 	default-autowire="byName">
+	<!-- batch 的上下文定义-->
 <!--  作业 仓库  存储作业状态 -->
 <bean id="jobRepository"
 
