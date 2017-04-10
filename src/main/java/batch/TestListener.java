@@ -5,7 +5,7 @@ import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.JobExecutionListener;
 /**
  * 
- * @author zdc524
+ * @author 张大川
  *  监听器 实现 JobEx  JobExecutionListener
  */
 public class TestListener implements JobExecutionListener  {
